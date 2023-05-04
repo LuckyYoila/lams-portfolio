@@ -1,0 +1,60 @@
+
+body {
+    background-color: rgb(24, 24, 26);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-right: 400px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    width: 600px;
+}
+
+.logo-container {
+    color: rgb(203, 127, 4);
+    font-size: x-large;
+    border:1px solid rgb(203, 127, 4);
+    padding:10px;
+}
+
+.first-name {
+    color: rgb(203, 127, 4);
+}
+
+.hire-button {
+    background-color: rgb(203, 127, 4);
+    padding: 10px;
+    border:1px solid rgb(203, 127, 4);
+    color: white;
+    border-radius: 100px;
+}
+
+.hire-button:hover {
+    background-color: black;
+    color: rgb(203, 127, 4);
+}
+
+.image > img {
+    height: 500px;
+    width: 350px;
+}
